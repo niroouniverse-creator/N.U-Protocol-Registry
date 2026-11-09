@@ -5,21 +5,80 @@
   "visibility": "public",
   "entrypoint": "protocols/NU-PUBLIC-MODEL-ENTRYPOINT.md",
   "protocols": [
-    {"id":"NU-MODEL-PUBLIC-001","path":"protocols/NU-PUBLIC-MODEL-ENTRYPOINT.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["AI models","creators","researchers"]},
-    {"id":"NU-CREATE-MACHINE-001","path":"protocols/NU-CREATION-AND-MACHINE-VALIDATION.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["creators","AI generators"]},
-    {"id":"NU-QUARANTINE-001","path":"protocols/NU-QUARANTINE-AND-CONFLICT-CONTROL.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["AI models","archive operators","reviewers"]},
-    {"id":"NU-SEO-001","path":"protocols/NU-SEO-AND-MEDIA-PUBLICATION.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["SEO team","writers","AI generators"]},
-    {"id":"NU-CREATOR-STATUS-001","path":"protocols/NU-CREATOR-STATUS-AND-RECOGNITION.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["creators","reviewers","publishers"]},
-    {"id":"NU-ANNOUNCEMENT-001","path":"protocols/NU-PUBLIC-ANNOUNCEMENT-ROUTING.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["models","creators","publishers"]}
+    {
+      "id": "NU-MODEL-PUBLIC-001",
+      "path": "protocols/NU-PUBLIC-MODEL-ENTRYPOINT.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": [
+        "AI models",
+        "creators",
+        "researchers"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "NU-CREATE-MACHINE-001",
+      "path": "protocols/NU-CREATION-AND-MACHINE-VALIDATION.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": [
+        "creators",
+        "AI generators"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "NU-QUARANTINE-001",
+      "path": "protocols/NU-QUARANTINE-AND-CONFLICT-CONTROL.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": [
+        "AI models",
+        "archive operators",
+        "reviewers"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "NU-SEO-001",
+      "path": "protocols/NU-SEO-AND-MEDIA-PUBLICATION.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": [
+        "SEO team",
+        "writers",
+        "AI generators"
+      ],
+      "version": "1.0.1"
+    },
+    {
+      "id": "NU-CREATOR-STATUS-001",
+      "path": "protocols/NU-CREATOR-STATUS-AND-RECOGNITION.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": [
+        "creators",
+        "reviewers",
+        "publishers"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "NU-ANNOUNCEMENT-001",
+      "path": "protocols/NU-PUBLIC-ANNOUNCEMENT-ROUTING.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": [
+        "models",
+        "creators",
+        "publishers"
+      ],
+      "version": "1.0.0"
+    }
   ],
   "boards": {
-    "announcements":"https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/announcements.md",
-    "media_publications":"https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/media-publications.md",
-    "independent_stories":"https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/independent-stories.md"
+    "announcements": "https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/announcements.md",
+    "media_publications": "https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/media-publications.md",
+    "independent_stories": "https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/independent-stories.md"
   },
   "related_public_repositories": {
-    "public_index":"https://github.com/niroouniverse-creator/N.U-Public-Index",
-    "public_bulletins":"https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS"
+    "public_index": "https://github.com/niroouniverse-creator/N.U-Public-Index",
+    "public_bulletins": "https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS"
   },
   "machine_validation_is_not_human_approval": true,
   "search_indexing_guaranteed": false

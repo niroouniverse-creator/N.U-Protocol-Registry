@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "system": "N.U — Niroo Universe",
   "registry_id": "NU-PROTOCOL-REGISTRY-001",
   "visibility": "public",
@@ -7,6 +7,7 @@
   "protocols": [
     {"id":"NU-MODEL-PUBLIC-001","path":"protocols/NU-PUBLIC-MODEL-ENTRYPOINT.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["AI models","creators","researchers"]},
     {"id":"NU-CREATE-MACHINE-001","path":"protocols/NU-CREATION-AND-MACHINE-VALIDATION.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["creators","AI generators"]},
+    {"id":"NU-QUARANTINE-001","path":"protocols/NU-QUARANTINE-AND-CONFLICT-CONTROL.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["AI models","archive operators","reviewers"]},
     {"id":"NU-SEO-001","path":"protocols/NU-SEO-AND-MEDIA-PUBLICATION.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["SEO team","writers","AI generators"]},
     {"id":"NU-CREATOR-STATUS-001","path":"protocols/NU-CREATOR-STATUS-AND-RECOGNITION.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["creators","reviewers","publishers"]},
     {"id":"NU-ANNOUNCEMENT-001","path":"protocols/NU-PUBLIC-ANNOUNCEMENT-ROUTING.md","status":"PUBLIC_DEVELOPMENT_STANDARD","audience":["models","creators","publishers"]}

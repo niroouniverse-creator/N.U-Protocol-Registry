@@ -106,6 +106,10 @@ The N.U SEO team should use Search Console or platform analytics only when autho
 ## 11. Machine and human decisions are separate
 The machine only reports compliance with the published standard and the checks it actually ran. Producer review and N.U team review are separate human decisions. They must not be fabricated, inferred from a machine result, or treated as machine validation inputs.
 
+Both human decisions must be made publicly traceable when authorized: the producer's own publication decision and the N.U team's final decision. They may be recorded in one public notice when both are complete, or in separate dated notices when they occur at different times. Post the decision notice to [N.U Public Announcements](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/announcements.md), linking to this protocol and the relevant output basket. After a media article is actually published, add its verified URL to [Media Publications](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/media-publications.md). If it remains an independent creator publication, route it to [Independent Stories](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/independent-stories.md).
+
+The machine validator does not wait for, require, read, or infer either human decision to complete its machine-validation report. It must return the machine result independently and label human decisions as NOT_RECORDED until a public human record exists.
+
 See the [Creator Review, Status and Recognition Protocol](NU-CREATOR-STATUS-AND-RECOGNITION.md).
 
 **Persian summary:** تیم SEO می‌تواند همین پروتکل عمومی را به هر مدل مولد بدهد و مقاله‌ای قابل‌خواندن، مستند و مطابق استاندارد تولید کند؛ بدون دسترسی به مخازن خصوصی. مقاله پس از انتشار و ثبت پیوند واقعی در سبد «انتشارات رسانه‌ای» قرار می‌گیرد. تأیید ماشینی به‌تنهایی تأیید نهایی نیست.

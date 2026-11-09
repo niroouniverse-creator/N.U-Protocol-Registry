@@ -1,6 +1,6 @@
 # N.U SEO and Media Publication Protocol
 **Protocol ID:** NU-SEO-001  
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Status:** PUBLIC DEVELOPMENT STANDARD  
 **Audience:** N.U SEO team, article writers, editors, independent publishers, browser users, and AI generators.
 
@@ -94,7 +94,16 @@ The protocol itself does not promise an unverified submission channel. Until an 
 - [Media Publications](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/media-publications.md) for published SEO/media articles and their recorded status.
 - The [N.U Protocol Registry](https://github.com/niroouniverse-creator/N.U-Protocol-Registry) for the current rules.
 
-## 10. Machine and human decisions are separate
+## 10. External SEO reference baseline
+
+This protocol follows current public search guidance rather than promising ranking outcomes:
+- Google recommends helpful, reliable, people-first content, original value, clear authorship, and useful structure: [Creating Helpful, Reliable, People-First Content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) and [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
+- Google identifies keyword stuffing, link spam, and scaled content abuse—including mass-produced AI pages without added value—as spam practices: [Spam Policies](https://developers.google.com/search/docs/essentials/spam-policies).
+- For Google AI Overviews and AI Mode, the same foundational SEO practices apply; there are no additional special optimization requirements, and eligibility does not guarantee crawling, indexing, or display: [AI Features and Your Website](https://developers.google.com/search/docs/appearance/ai-features).
+
+The N.U SEO team should use Search Console or platform analytics only when authorized access exists, and should distinguish observed impressions/clicks from assumptions about ranking or AI retrieval.
+
+## 11. Machine and human decisions are separate
 The machine only reports compliance with the published standard and the checks it actually ran. Producer review and N.U team review are separate human decisions. They must not be fabricated, inferred from a machine result, or treated as machine validation inputs.
 
 See the [Creator Review, Status and Recognition Protocol](NU-CREATOR-STATUS-AND-RECOGNITION.md).

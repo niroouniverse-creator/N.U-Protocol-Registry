@@ -12,10 +12,11 @@ The protocol is tool-independent. It does not require access to N.U private repo
 ## Required reading
 1. Read this entry point.
 2. Read the [Creation and Machine Validation Protocol](NU-CREATION-AND-MACHINE-VALIDATION.md).
-3. Read the relevant work-type standard or instructions.
-4. For SEO and articles, read the [SEO and Media Publication Protocol](NU-SEO-AND-MEDIA-PUBLICATION.md).
-5. For public status and where to check outcomes, read the [Creator Review and Status Protocol](NU-CREATOR-STATUS-AND-RECOGNITION.md) and [Announcement Routing Protocol](NU-PUBLIC-ANNOUNCEMENT-ROUTING.md).
-6. Check the [N.U Public Index](https://github.com/niroouniverse-creator/N.U-Public-Index) and [N.U Public Bulletins](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS) for current public sources and notices.
+3. For books and book-motors, read the [Book and Book-Motor Production Protocol](NU-BOOK-AND-BOOK-MOTOR-PRODUCTION.md).
+4. Read the relevant work-type standard or instructions.
+5. For SEO and articles, read the [SEO and Media Publication Protocol](NU-SEO-AND-MEDIA-PUBLICATION.md).
+6. For public status and where to check outcomes, read the [Creator Review and Status Protocol](NU-CREATOR-STATUS-AND-RECOGNITION.md) and [Announcement Routing Protocol](NU-PUBLIC-ANNOUNCEMENT-ROUTING.md).
+7. Check the [N.U Public Index](https://github.com/niroouniverse-creator/N.U-Public-Index) and [N.U Public Bulletins](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS) for current public sources and notices.
 
 ## Model execution instructions
 For each N.U-related request:
@@ -26,29 +27,30 @@ For each N.U-related request:
 5. Preserve the creator's original seed and intent. If the work changes direction, explain the change in its own production notes.
 6. Use only the N.U concepts and terminology supported by accessible sources. Mark missing definitions as open rather than inventing them.
 7. Produce the work in the medium requested. Do not force every work into a book or academic format.
-8. Run the applicable machine checks and report exactly what was and was not checked.
-9. Label the result accurately as a draft, machine-validated candidate, independent work, or human-confirmed publication.
-10. Never claim that a human has approved, endorsed, licensed, or published the work unless a public decision record supports that claim.
+8. For BOOK-MOTOR tasks, follow the dedicated protocol's scientific-base research, N.U source retrieval, overlap mapping, N.U signature, conflict handling, three-part structure, model navigation, and separate human review gates.
+9. Run the applicable machine checks and report exactly what was and was not checked.
+10. Label the result accurately as a draft, machine-validated candidate, independent work, or human-confirmed publication.
+11. Never claim that a human has approved, endorsed, licensed, or published the work unless a public decision record supports that claim.
 
 ## Claim labels
 Use these labels where applicable:
-- `N_U_SOURCE_STATEMENT`
-- `EXTERNAL_FACT`
-- `SUPPORTED_INFERENCE`
-- `PROPOSED_N_U_DEVELOPMENT`
-- `SPECULATION`
-- `UNRESOLVED_CONFLICT`
-- `HUMAN_CONFIRMED`
+- N_U_SOURCE_STATEMENT
+- EXTERNAL_FACT
+- SUPPORTED_INFERENCE
+- PROPOSED_N_U_DEVELOPMENT
+- SPECULATION
+- UNRESOLVED_CONFLICT
+- HUMAN_CONFIRMED
 
 Do not apply scientific evidence labels to fiction or Canon labels to external scientific claims.
 
 ## Universal machine result
 Use only:
-- `PASS`
-- `PASS_WITH_LIMITATIONS`
-- `FAIL`
-- `BLOCKED`
-- `NOT_TESTED`
+- PASS
+- PASS_WITH_LIMITATIONS
+- FAIL
+- BLOCKED
+- NOT_TESTED
 
 A missing source, unavailable permission, untested function, or inaccessible private repository must never be silently converted into PASS.
 

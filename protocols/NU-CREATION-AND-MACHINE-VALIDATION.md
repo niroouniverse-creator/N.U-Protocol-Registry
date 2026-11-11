@@ -1,13 +1,13 @@
 # N.U Creation and Machine Validation Protocol
 **Protocol ID:** NU-CREATE-MACHINE-001  
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Status:** PUBLIC DEVELOPMENT STANDARD
 
 ## 1. Purpose
 Define a repeatable, tool-independent route from a creative seed to an N.U-standard candidate work. The seed may be a word, question, feeling, image, sketch, scene, observation, research lead, or practical problem.
 
 ## 2. Production path
-`SEED → BRIEF → SOURCE CHECK → CREATION → SELF-CHECK → MACHINE VALIDATION → RESULT RECORD`
+SEED → BRIEF → SOURCE CHECK → CREATION → SELF-CHECK → MACHINE VALIDATION → RESULT RECORD
 
 Human review and public release are separate decisions. They do not become part of a machine score.
 
@@ -47,11 +47,11 @@ The machine checks only criteria it can actually inspect:
 10. The output has an appropriate destination category.
 
 ## 6. Validation result
-- `PASS`: all applicable declared machine-checkable requirements passed.
-- `PASS_WITH_LIMITATIONS`: checks passed but meaningful limitations remain.
-- `FAIL`: at least one required machine-checkable requirement failed.
-- `BLOCKED`: required input, source, permission, or tool is unavailable.
-- `NOT_TESTED`: no evidence that the check was run.
+- PASS: all applicable declared machine-checkable requirements passed.
+- PASS_WITH_LIMITATIONS: checks passed but meaningful limitations remain.
+- FAIL: at least one required machine-checkable requirement failed.
+- BLOCKED: required input, source, permission, or tool is unavailable.
+- NOT_TESTED: no evidence that the check was run.
 
 Every result must include the version checked, date, checks performed, evidence, limitations, and validator/tool identity where available.
 
@@ -98,5 +98,10 @@ After machine validation:
 - Public N.U reference or standard → [N.U Public References](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/nu-public-references.md), only after its public status and source are verified.
 - General decision or process notice → [N.U Public Announcements](https://github.com/niroouniverse-creator/NU-PUBLIC-BULLETINS/blob/main/boards/announcements.md).
 
-## 10. Related protocol
-See [N.U Public Model Entry Point](NU-PUBLIC-MODEL-ENTRYPOINT.md), [SEO and Media Publication Protocol](NU-SEO-AND-MEDIA-PUBLICATION.md), and [Creator Review and Recognition](NU-CREATOR-STATUS-AND-RECOGNITION.md).
+## 10. Specialized book production
+For every substantial BOOK or BOOK-MOTOR, apply the [N.U Book and Book-Motor Production Protocol](NU-BOOK-AND-BOOK-MOTOR-PRODUCTION.md). It defines BOOK, MOTOR, and BOOK-MOTOR; the N.U signature; the scientific/professional evidence base; N.U material retrieval and overlap mapping; conflict handling; the three-part publication structure; and model navigation.
+
+A BOOK-MOTOR is not interchangeable with BOOK-ENGINE. Continue to apply the separate BOOK-ENGINE specification when that is the requested product type.
+
+## 11. Related protocol
+See [N.U Public Model Entry Point](NU-PUBLIC-MODEL-ENTRYPOINT.md), [Book and Book-Motor Production](NU-BOOK-AND-BOOK-MOTOR-PRODUCTION.md), [SEO and Media Publication Protocol](NU-SEO-AND-MEDIA-PUBLICATION.md), and [Creator Review and Recognition](NU-CREATOR-STATUS-AND-RECOGNITION.md).

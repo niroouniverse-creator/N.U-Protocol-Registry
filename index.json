@@ -9,65 +9,49 @@
       "id": "NU-MODEL-PUBLIC-001",
       "path": "protocols/NU-PUBLIC-MODEL-ENTRYPOINT.md",
       "status": "PUBLIC_DEVELOPMENT_STANDARD",
-      "audience": [
-        "AI models",
-        "creators",
-        "researchers"
-      ],
+      "audience": ["AI models", "creators", "researchers"],
       "version": "1.0.0"
     },
     {
       "id": "NU-CREATE-MACHINE-001",
       "path": "protocols/NU-CREATION-AND-MACHINE-VALIDATION.md",
       "status": "PUBLIC_DEVELOPMENT_STANDARD",
-      "audience": [
-        "creators",
-        "AI generators"
-      ],
+      "audience": ["creators", "AI generators"],
+      "version": "1.0.0"
+    },
+    {
+      "id": "NU-BOOK-MOTOR-001",
+      "path": "protocols/NU-BOOK-AND-BOOK-MOTOR-PRODUCTION.md",
+      "status": "PUBLIC_DEVELOPMENT_STANDARD",
+      "audience": ["writers", "researchers", "creators", "editors", "AI models", "production agents"],
       "version": "1.0.0"
     },
     {
       "id": "NU-QUARANTINE-001",
       "path": "protocols/NU-QUARANTINE-AND-CONFLICT-CONTROL.md",
       "status": "PUBLIC_DEVELOPMENT_STANDARD",
-      "audience": [
-        "AI models",
-        "archive operators",
-        "reviewers"
-      ],
+      "audience": ["AI models", "archive operators", "reviewers"],
       "version": "1.0.0"
     },
     {
       "id": "NU-SEO-001",
       "path": "protocols/NU-SEO-AND-MEDIA-PUBLICATION.md",
       "status": "PUBLIC_DEVELOPMENT_STANDARD",
-      "audience": [
-        "SEO team",
-        "writers",
-        "AI generators"
-      ],
+      "audience": ["SEO team", "writers", "AI generators"],
       "version": "1.0.1"
     },
     {
       "id": "NU-CREATOR-STATUS-001",
       "path": "protocols/NU-CREATOR-STATUS-AND-RECOGNITION.md",
       "status": "PUBLIC_DEVELOPMENT_STANDARD",
-      "audience": [
-        "creators",
-        "reviewers",
-        "publishers"
-      ],
+      "audience": ["creators", "reviewers", "publishers"],
       "version": "1.0.0"
     },
     {
       "id": "NU-ANNOUNCEMENT-001",
       "path": "protocols/NU-PUBLIC-ANNOUNCEMENT-ROUTING.md",
       "status": "PUBLIC_DEVELOPMENT_STANDARD",
-      "audience": [
-        "models",
-        "creators",
-        "publishers"
-      ],
+      "audience": ["models", "creators", "publishers"],
       "version": "1.0.0"
     }
   ],
